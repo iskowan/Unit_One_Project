@@ -3,10 +3,10 @@
 import turtle
 
 # setting speed of turtle
-turtle.speed(100)
+# turtle.speed(100)
 # defining "makeAnOctogon" and "moveTurtle"
 def makeAnOctogon(size):
-    turtle.begon_fill()
+    turtle.begin_fill()
     for x in range(8):
         turtle.fd(size)
         turtle.right(45)
