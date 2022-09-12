@@ -9,7 +9,7 @@ def makeAnOctogon(size):
     turtle.begon_fill()
     for x in range(8):
         turtle.fd(size)
-        turtle.rt(45)
+        turtle.right(45)
     turtle.end_fill()
 
 def moveTurtle():
