@@ -12,9 +12,6 @@ def makeAnOctogon(size):
         turtle.rt(45)
     turtle.end_fill()
 
-def turtleColor(color):
-    turtle.color(color)
-
 def moveTurtle():
     turtle.penup()
     turtle.forward(100)
@@ -24,7 +21,7 @@ def moveTurtle():
 # begining of code
 
 # octagon 1
-turtleColor("dark sea green")
+turtle.color("dark sea green")
 makeAnOctogon(50)
 moveTurtle()
 #octagon 2
