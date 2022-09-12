@@ -6,9 +6,14 @@ import turtle
 turtle.speed(100)
 # defining "makeAnOctogon" and "moveTurtle"
 def makeAnOctogon(size):
+    turtle.begon_fill()
     for x in range(8):
         turtle.fd(size)
         turtle.rt(45)
+    turtle.end_fill()
+
+def turtleColor(color):
+    turtle.color(color)
 
 def moveTurtle():
     turtle.penup()
@@ -19,28 +24,20 @@ def moveTurtle():
 # begining of code
 
 # octagon 1
-turtle.color("dark sea green")
-turtle.begin_fill()
+turtleColor("dark sea green")
 makeAnOctogon(50)
-turtle.end_fill()
 moveTurtle()
 #octagon 2
 turtle.color("orange red")
-turtle.begin_fill()
 makeAnOctogon(25)
-turtle.end_fill()
 moveTurtle()
 # octagon 3
 turtle.color("royal blue")
-turtle.begin_fill()
 makeAnOctogon(40)
-turtle.end_fill()
 moveTurtle()
 # octagon 4
 turtle.color("yellow green")
-turtle.begin_fill()
 makeAnOctogon(30)
-turtle.end_fill()
 moveTurtle()
 
 turtle.exitonclick()
