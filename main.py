@@ -54,5 +54,6 @@ for x in range (8):
 
 turtle.end_fill()
 
+
 turtle.hideturtle()
 turtle.exitonclick()
