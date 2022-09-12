@@ -2,7 +2,7 @@
 # importing tool-turtle
 import turtle
 
-turtle.color("red")
+turtle.color("dark olive green")
 # function to fill shape
 turtle.begin_fill()
 
@@ -19,7 +19,7 @@ turtle.penup()
 turtle.left(90)
 turtle.fd(50)
 turtle.pendown()
-turtle.color("green")
+turtle.color("gold")
 
 turtle.begin_fill()
 # creating second octogon
@@ -32,7 +32,7 @@ turtle.end_fill()
 turtle.penup()
 turtle.goto(90,100)
 turtle.pendown()
-turtle.color("blue")
+turtle.color("tomato")
 turtle.begin_fill()
 # code for third octogon
 for x in range (8):
@@ -45,7 +45,7 @@ turtle.end_fill()
 turtle.penup()
 turtle.goto(-200,90)
 turtle.pendown()
-turtle.color("violet")
+turtle.color("midnight blue")
 
 turtle.begin_fill()
 for x in range (8):
@@ -54,6 +54,4 @@ for x in range (8):
 
 turtle.end_fill()
 
-
-turtle.hideturtle()
 turtle.exitonclick()
