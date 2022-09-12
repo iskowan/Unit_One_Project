@@ -18,7 +18,6 @@ def moveTurtle():
     turtle.left(90)
     turtle.pendown()
 
-
 # octagon 1
 turtle.color("dark sea green")
 makeAnOctogon(50)
