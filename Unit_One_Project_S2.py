@@ -1,9 +1,13 @@
+# Unit_One_Project_S2.py
+# by Anderson Iskowitz
 import turtle
 
+# setting speed of turtle
+turtle.speed(100)
 # defining "makeAnOctogon" and "moveTurtle"
-def makeAnOctogon():
+def makeAnOctogon(size):
     for x in range(8):
-        turtle.fd(50)
+        turtle.fd(size)
         turtle.rt(45)
 
 def moveTurtle():
@@ -14,23 +18,29 @@ def moveTurtle():
 
 # begining of code
 
-turtle.color("dark olive green")
+# octagon 1
+turtle.color("dark sea green")
 turtle.begin_fill()
-makeAnOctogon()
+makeAnOctogon(50)
 turtle.end_fill()
 moveTurtle()
-turtle.color("red")
+#octagon 2
+turtle.color("orange red")
 turtle.begin_fill()
-makeAnOctogon()
+makeAnOctogon(25)
 turtle.end_fill()
 moveTurtle()
-turtle.color("blue")
+# octagon 3
+turtle.color("royal blue")
 turtle.begin_fill()
-makeAnOctogon()
+makeAnOctogon(40)
 turtle.end_fill()
 moveTurtle()
-turtle.color("yellow")
+# octagon 4
+turtle.color("yellow green")
 turtle.begin_fill()
-makeAnOctogon()
+makeAnOctogon(30)
 turtle.end_fill()
 moveTurtle()
+
+turtle.exitonclick()
