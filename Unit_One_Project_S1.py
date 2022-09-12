@@ -27,7 +27,6 @@ for x in range(8):
     turtle.fd(20)
     turtle.rt(45)
 
-
 turtle.end_fill()
 # moving turtle with turtle.goto function
 turtle.penup()
