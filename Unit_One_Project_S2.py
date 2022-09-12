@@ -18,7 +18,6 @@ def moveTurtle():
     turtle.left(90)
     turtle.pendown()
 
-# begining of code
 
 # octagon 1
 turtle.color("dark sea green")
