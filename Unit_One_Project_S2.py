@@ -14,8 +14,8 @@ def moveTurtle():
 def makeAnOctogon(size, color):
     turtle.color(color)
     turtle.begin_fill()
-    turtle.fd(size)
     for x in range(8):
+        turtle.fd(size)
         turtle.right(45)
     turtle.end_fill()
     moveTurtle()
